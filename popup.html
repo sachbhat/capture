@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    input,
+    textarea {
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="addBookmark">
+    <input type="hidden" id="url" value="" />
+    <p>
+      <label for="title">Title</label>
+      <input type="text" id="title" size="25" value="" />
+    </p>
+    <p>
+      <label for="annotation">Annotation / Highlight</label>
+      <textarea id="annotation" value="" ></textarea>
+    </p>
+    <p>
+      <input id="save" type="submit" value="Save" />
+      <span id="status-display"></span>
+    </p>
+  </form>
+</body>
+<script src="popup.js"></script>
+
+</html>
